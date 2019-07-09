@@ -25,7 +25,6 @@ UDS_DIR      = ../../uds
 WARNS            =				\
 		   -Wall			\
 		   -Wcast-align			\
-		   -Werror			\
 		   -Wextra			\
 		   -Winit-self			\
 		   -Wlogical-op			\
