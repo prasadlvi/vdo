@@ -143,7 +143,7 @@ $(PROGS): $$@.o libuser.a $(DEPLIBS)
 	echo "Building $@ from $^"
 	$(CC) $(LDFLAGS) $^ $(LDPRFLAGS) -o $@
 
-vdodmeventd: LDPRFLAGS += "-ldevmapper -ldevmapper-event"
+vdodmeventd: LDPRFLAGS += "-ldevmapper"
 
 ifneq ($(MAKECMDGOALS),clean)
 DEPSOURCES = $(wildcard *.c)
