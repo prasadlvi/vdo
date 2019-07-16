@@ -23,6 +23,7 @@ ExcludeArch: ppc64le
 ExcludeArch: aarch64
 ExcludeArch: i686
 BuildRequires: device-mapper-event-devel
+BuildRequires: device-mapper-devel 
 BuildRequires: gcc
 BuildRequires: libuuid-devel
 BuildRequires: make
