@@ -30,6 +30,7 @@
 #include <sys/stat.h>
 
 #include <libdevmapper.h>
+#include <libdevmapper-event.h>
 
 #include "logger.h"
 #include "types.h"
